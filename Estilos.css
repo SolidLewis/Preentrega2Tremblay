@@ -140,3 +140,21 @@ footer {
     height: 200px; /* O el tamaño que quieras establecer */
     object-fit: cover; /* Esto hace que la imagen se ajuste al tamaño que le hayas dado sin distorsionarse */
 }
+
+@media (max-width: 481px) {
+
+    h2 {
+        background-color:blue
+    }
+    .nosotros {
+        background-color: red;
+    }
+    .n-left{
+        background-image: url(imagenes/coliseo.jpg);
+    }
+    .col-sm-12{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    }
