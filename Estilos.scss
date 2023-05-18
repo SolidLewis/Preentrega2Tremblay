@@ -1,0 +1,161 @@
+
+.navbar{
+    background-color: black
+}
+
+.nav-link:hover{
+    text-shadow: 0 0 5px black, 0 0 5px black;
+}
+
+.jumbotron{
+    background-image: url(imagenes/desktop-wallpaper-old-world-maps-old-map-google-maps.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 350px;
+    border-radius: 0%;
+    margin-bottom: 0%;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+    text-shadow: 0 0 5px black,  0 0 5px black;
+}
+
+.jumbotron p{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 0 0 5px black,  0 0 5px black;
+}
+
+h2{
+    background-color: beige;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px black,  0 0 5px black;
+    padding: 20px;
+    font-weight: bold;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.nosotros{
+    background-color: rgb(248, 226, 178);
+}
+
+.noticias{
+    background-color: rgb(248, 226, 178);
+    text-align: center;
+}
+
+.n-left{
+    background-image: url(imagenes/syria-archaeological-ruin.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.n-left1{
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+h3{
+    color: white;
+    text-shadow: 0 0 5px black,  0 0 5px black;
+}
+
+.n-right{
+    color: black;
+    text-align: center;
+}
+
+.n-right1{
+    color: black;
+    text-align: center;
+    min-height: 300px;
+    max-height: auto;
+}
+
+.sec{
+    width: 100%;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color :rgb(43, 43, 43);
+    padding: 20px;
+}
+
+.contenedor{
+    text-align: center;
+}
+
+.noticias {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.item p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.img-noticia {
+    width: 100%;
+    height: 200px; /* O el tamaño que quieras establecer */
+    object-fit: cover; /* Esto hace que la imagen se ajuste al tamaño que le hayas dado sin distorsionarse */
+}
+
+@media (max-width: 481px) {
+
+    h2 {
+        background-color:blue
+    }
+    .nosotros {
+        background-color: red;
+    }
+    .n-left{
+        background-image: url(imagenes/coliseo.jpg);
+    }
+    .col-sm-12{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    }
+    

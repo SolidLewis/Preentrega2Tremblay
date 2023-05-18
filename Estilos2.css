@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: black;
+}
+.navbar .nav-link:hover {
+  text-shadow: 0 0 5px black, 0 0 5px black;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-shadow: 0 0 5px black, 0 0 5px black;
+}
+
+h2 {
+  background-color: rgb(248, 226, 178);
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px black, 0 0 5px black;
+  padding: 20px;
+  font-weight: bold;
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: white;
+  text-shadow: 0 0 5px black, 0 0 5px black;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(43, 43, 43);
+  padding: 20px;
+}
+
+.redes {
+  text-align: center;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.contenedor {
+  background-image: linear-gradient(to right, #f8e2b2, #c5b58a, #958a64, #686141, #3e3b20);
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  grid-template-areas: "img1 img2 img2 img4" "img1 img3 img3 img4" "img5 img6 img6 img7";
+  padding: 40px;
+  grid-gap: 20px;
+}
+.contenedor .item {
+  border: 5px solid rgba(249, 235, 192, 0.806);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.contenedor .item.animated {
+  transform-origin: center;
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out;
+}
+.contenedor .item.animated:hover {
+  transform: scale(1.1);
+}
+.contenedor .item1 {
+  grid-area: img1;
+  background-image: url(imagenes/Machu_Picchu\,_Peru_\(2018\).jpg);
+}
+.contenedor .item2 {
+  grid-area: img2;
+  background-image: url(imagenes/petra-4360980_1280.jpg);
+}
+.contenedor .item3 {
+  grid-area: img3;
+  background-image: url(imagenes/chichenitza.jpg);
+}
+.contenedor .item4 {
+  grid-area: img4;
+  background-image: url(imagenes/muralla.jpg);
+}
+.contenedor .item5 {
+  grid-area: img5;
+  background-image: url(imagenes/Vista_para_o_Cristo_Redentor.jpg);
+}
+.contenedor .item6 {
+  grid-area: img6;
+  background-image: url(imagenes/Taj_Mahal\,_Agra\,_India_edit3.jpg);
+}
+.contenedor .item7 {
+  grid-area: img7;
+  background-image: url(imagenes/coliseo.jpg);
+}
+
+@media (max-width: 481px) {
+  h2 {
+    background-color: blue;
+  }
+  .nosotros {
+    background-color: red;
+  }
+  .n-left {
+    background-image: url(imagenes/coliseo.jpg);
+  }
+  .col-sm-12 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=Estilos2.css.map */
